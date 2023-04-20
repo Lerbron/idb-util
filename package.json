@@ -1,0 +1,24 @@
+{
+  "name": "idb-util-rollup",
+  "version": "1.0.0",
+  "main": "lib/bundle.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-strip": "^3.0.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "rollup": "^3.5.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
