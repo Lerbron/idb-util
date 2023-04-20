@@ -7,6 +7,7 @@
   "files": [
     "lib/*"
   ],
+  "keywords": ["indexeddb"],
   "scripts": {
     "build": "rollup -c"
   },
