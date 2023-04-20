@@ -11,9 +11,9 @@ const config = {
       moduleDirectories: ['node_modules']
     }),
     babel({ babelHelpers: 'bundled' }),
-    // terser(),
+    terser(),
     commonjs(),
-    // strip()
+    strip()
   ],
   external: [],
 

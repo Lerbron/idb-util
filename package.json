@@ -8,6 +8,10 @@
     "lib/*"
   ],
   "keywords": ["indexeddb"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lerbron/idb-util.git"
+  },
   "scripts": {
     "build": "rollup -c"
   },
