@@ -1,9 +1,12 @@
 {
   "name": "idb-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/bundle.js",
   "license": "MIT",
   "type": "module",
+  "files": [
+    "lib/*"
+  ],
   "scripts": {
     "build": "rollup -c"
   },
