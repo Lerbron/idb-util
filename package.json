@@ -1,5 +1,5 @@
 {
-  "name": "idb-util-rollup",
+  "name": "idb-util",
   "version": "1.0.0",
   "main": "lib/bundle.js",
   "license": "MIT",
